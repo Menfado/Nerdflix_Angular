@@ -1,0 +1,28 @@
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 30px;
+
+    & img{
+        width: 100px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+    & ul{
+        display: flex;
+        gap: 20px;
+        text-transform: uppercase;
+
+        & a{
+            color:white;
+            font-size: small;
+            transition:all 0.5s;
+            &:hover{
+                color:darkred
+            }
+        }
+    }
+}
